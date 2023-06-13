@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project2';
+  menu: string ="raclette party ";
+  isThisIngredientVital : boolean = true;
+  isGuestListDisplayed : boolean = true;
+  songList: string[] = ["Alejandro", "Ne me quitte pas", "Le temps est bon"];
 }

@@ -1,0 +1,8 @@
+<style>
+    div{ border: none;}
+</style>
+
+<h1>test directive</h1>
+<h2 [ngStyle] ="{color : isAdmin ? 'red' : 'silver'}">{{title}}</h2>
+<div><button>view</button></div>
+<div><button *ngIf ="isAdmin">edit</button></div>

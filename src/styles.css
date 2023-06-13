@@ -30,3 +30,8 @@
   h1 {
     position: center;
   }
+
+  .vital {
+    color: rgb(172, 53, 73);
+    font-weight: bold;
+  }
