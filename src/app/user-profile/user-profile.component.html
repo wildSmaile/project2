@@ -1,0 +1,8 @@
+<h1>profiles des utilisatuers </h1>
+<div><img [src]="user1.photo" [alt]="user1.photoAlt"></div>
+<div><span> name user :</span>{{user1.nameUser}}</div>
+<div><span>user firstname :</span>{{user1.firstName}}</div>
+<div><span>age :</span><span id="userAge" hidden>{{user1.age}}</span></div>
+<div><span>quote</span><p>{{user1.quote}}</p></div>
+<input type="text" [(ngModel)] ="user1.quote">
+ <button (click)="showAge()">afficher age</button>

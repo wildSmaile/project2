@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./block.component.css']
 })
 export class BlockComponent {
-      titele = "CodeSandbox";
-      content = "A B D"
+      titele:string = "CodeSandbox";
+      content:string = "A B D"
 }
